@@ -4,6 +4,6 @@ function saturdayFun (day= "roller-skate") {
 }
 saturdayFun("bathe my dog");
 
-let mondayWork = () => {
-  
+ function mondayWork (arg= "go to the office")  {
+  return ``  
 }
