@@ -10,4 +10,11 @@ saturdayFun("bathe my dog");
 
 mondayWork("work from home")
 
-function wrapAdjective () {}
+function wrapAdjective (val= "*") {
+ let innerFn = function(ele = "special") {
+   return `You are ${val}${ele}${val}!`
+ }
+ return innerFn
+}
+let somehing = wrapAdjective("||")
+
