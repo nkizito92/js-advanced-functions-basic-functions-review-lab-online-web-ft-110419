@@ -8,4 +8,4 @@ saturdayFun("bathe my dog");
   return `This Monday, I will ${arg}`  
 }
 
-mondayWork("work from home")
+mondayWork("work from home.")
