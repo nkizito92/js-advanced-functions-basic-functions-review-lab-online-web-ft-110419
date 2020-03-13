@@ -1,5 +1,5 @@
 // Your code here
-function saturdayFun (day= "bathe my dog") {
+function saturdayFun (day= "roller-skate") {
    return `This Saturday, I want to ${day}!`;
 }
-saturdayFun("roller-skate")
+saturdayFun("bathe my dog")
