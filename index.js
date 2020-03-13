@@ -29,4 +29,13 @@ let Calculator = {
   multiply,
   divide
 }
-function actionApplyer () {}
+ let arrayOfTransforms = [
+          function(a){ return a * 2 },
+          function(a){ return a + 1000},
+          function(a){ return a % 7 }
+        ]
+
+function actionApplyer (a) {
+  return (a % 9);
+}
+actionApplyer(...arrayOfTransforms)
