@@ -4,6 +4,8 @@ function saturdayFun (day= "roller-skate") {
 }
 saturdayFun("bathe my dog");
 
- function mondayWork (arg= "office")  {
-  return `This Monday, I will go to the ${arg}`  
+ function mondayWork (arg= "go to the office")  {
+  return `This Monday, I will ${arg}`  
 }
+
+mondayWork("work from home")
