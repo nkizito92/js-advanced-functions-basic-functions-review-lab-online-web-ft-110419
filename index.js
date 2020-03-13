@@ -18,3 +18,15 @@ function wrapAdjective (val= "*") {
 }
 let somehing = wrapAdjective("||")
 
+let add = (a,b)=> a + b
+let subtract = (a,b)=>  a - b
+let multiply = (a,b)=>  a * b
+let divide = (a,b)=>  a / b
+
+let Calculator = {
+  add,
+  subtract,
+  multiply,
+  divide
+}
+function actionApplyer () {}
